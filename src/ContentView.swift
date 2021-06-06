@@ -16,7 +16,7 @@ struct ContentView: View {
                 "highlands"
             )
             // Generates an image from assets
-                
+            // It's a good idea to add spaces/new lines between the modifiers and their objects ('resizable' ect), because it helps us keep track of the modifiers
                 .resizable() // Allows that image to be stretched/fitted
                 .scaledToFit() // Fits the image to the screen
             
